@@ -1,0 +1,32 @@
+.color-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin:5px 55px 20px 55px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .color-square {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  button{
+    background-color: rgb(14, 209, 18);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(14, 209, 18);
+    padding: 5px;
+  }
+  
